@@ -1,0 +1,28 @@
+uuid: fef73b9e-8c9f-4caf-a287-dd85c120e1f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.colours.body
+    - node.type.colours
+  module:
+    - text
+    - user
+id: node.colours.default
+targetEntityType: node
+bundle: colours
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
