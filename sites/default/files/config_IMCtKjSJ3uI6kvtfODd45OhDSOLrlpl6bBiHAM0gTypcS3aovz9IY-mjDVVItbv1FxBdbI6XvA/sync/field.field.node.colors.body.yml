@@ -1,16 +1,16 @@
-uuid: a232dc64-9323-4973-9e49-4766b755be7e
+uuid: 9ea78e38-c389-4082-b9fc-c5cef81044d7
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.colours
+    - node.type.colors
   module:
     - text
-id: node.colours.body
+id: node.colors.body
 field_name: body
 entity_type: node
-bundle: colours
+bundle: colors
 label: Body
 description: ''
 required: false

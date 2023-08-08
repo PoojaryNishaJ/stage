@@ -1,17 +1,17 @@
-uuid: 8f4874c5-ece6-40de-9aa5-e9bfd95ea313
+uuid: 7fdd90ed-d6ef-4250-b7ab-5fbc9db6cbcd
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.colours.body
-    - node.type.colours
+    - field.field.node.colors.body
+    - node.type.colors
   module:
     - text
     - user
-id: node.colours.teaser
+id: node.colors.teaser
 targetEntityType: node
-bundle: colours
+bundle: colors
 mode: teaser
 content:
   body:

@@ -1,7 +1,8 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 458d1ea2-ea27-4cd3-8886-679084bef4a1
+uuid: |
+  5cc6b4c6-8e9a-44e7-b646-fca75ce892d3
 name: drupal-10.0.1
 mail: admin@example.com
 slogan: ''

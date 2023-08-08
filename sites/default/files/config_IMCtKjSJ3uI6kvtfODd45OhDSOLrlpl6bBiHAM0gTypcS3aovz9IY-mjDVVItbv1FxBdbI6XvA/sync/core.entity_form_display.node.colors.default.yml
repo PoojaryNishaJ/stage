@@ -1,16 +1,16 @@
-uuid: 98de498a-282c-4e45-9e2e-5d3005b4d55f
+uuid: 64f1d299-d6aa-4d50-9bdc-ad60312a3b80
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.colours.body
-    - node.type.colours
+    - field.field.node.colors.body
+    - node.type.colors
   module:
     - path
     - text
-id: node.colours.default
+id: node.colors.default
 targetEntityType: node
-bundle: colours
+bundle: colors
 mode: default
 content:
   body:

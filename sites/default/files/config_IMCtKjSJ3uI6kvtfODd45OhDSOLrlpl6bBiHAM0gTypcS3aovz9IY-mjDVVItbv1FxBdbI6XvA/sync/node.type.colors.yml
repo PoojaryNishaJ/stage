@@ -1,4 +1,4 @@
-uuid: ba370f49-908d-4598-8202-5563182cfbcb
+uuid: 38c23836-392c-428d-bced-76e446a5abd4
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Colours
-type: colours
+name: Colors
+type: colors
 description: ''
 help: ''
 new_revision: true
