@@ -1,0 +1,37 @@
+uuid: aa1686da-93e5-46ad-a97f-a907ad3b61e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.colors.body
+    - field.field.node.colors.field_title
+    - node.type.colors
+  module:
+    - text
+    - user
+id: node.colors.default
+targetEntityType: node
+bundle: colors
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

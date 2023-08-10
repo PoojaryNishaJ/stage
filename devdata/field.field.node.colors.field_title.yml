@@ -1,0 +1,19 @@
+uuid: a704e05b-bf50-42e5-b937-80f3cd08bc91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.colors
+id: node.colors.field_title
+field_name: field_title
+entity_type: node
+bundle: colors
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
