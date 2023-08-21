@@ -139,11 +139,15 @@ display:
             value: all
             title_enable: false
             title: All
-          title_enable: false
-          title: ''
-          default_argument_type: fixed
+          title_enable: true
+          title: '{{ arguments.tid }} basic page'
+          default_argument_type: taxonomy_tid
           default_argument_options:
-            argument: ''
+            term_page: '0'
+            node: true
+            limit: false
+            vids: {  }
+            anyall: ','
           default_argument_skip_url: false
           summary_options:
             base_path: ''
